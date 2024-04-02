@@ -11,11 +11,13 @@ import java.net.URL;
  */
 public final class HttpConnetionExample {
      private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String GET_URL = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=fb&apikey=Q1QZFVJQ21K7C6XM";
+     private static String[] res; 
+     private static int count = 0;
 
-    public static String conect(String url) throws IOException {
-
-        URL obj = new URL(url);
+    public static String conect(String [] url) throws IOException {
+        res = url;
+        String urls = check();
+        URL obj = new URL(urls);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");
         con.setRequestProperty("User-Agent", USER_AGENT);
@@ -40,5 +42,16 @@ public final class HttpConnetionExample {
         } else {
             return "GET request not worked";
         }
+    }
+    private static String check(){
+        String rest = "";
+        if(count == 0){
+            rest = res[0];
+            count +=1;
+        }else{
+            rest = res[1];
+            count =0;
+        }
+        return rest;
     }
 }
