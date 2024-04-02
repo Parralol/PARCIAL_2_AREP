@@ -9,11 +9,11 @@ public class MathService {
         
         get("/factors", (req,res) -> {
             String value = req.queryParamsValues("value")[0];
-            return "{ \"operation\": \"factors,\"" + "\"input \"" + value + "," +  "\"output:\"" +Functions.factors( Integer.parseInt(value));
+            return "{ \"operation\": \"factors,\"" + "\"input \"" + value + "," +  "\"output:\"" +Functions.factors( Integer.parseInt(value))+ "}";
         });
         get("/primes", (req,res) -> {
             String value = req.queryParamsValues("value")[0];
-            return "{ \"operation\": \"primes,\"" + "\"input \"" + value + "," +  "\"output:\"" +Functions.prime( Integer.parseInt(value));
+            return "{ \"operation\": \"primes,\"" + "\"input \"" + value + "," +  "\"output:\"" + Functions.prime( Integer.parseInt(value)) + "}";
         });
   }
 
