@@ -8,6 +8,12 @@
 
 https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/27e9a694-84a7-4cc9-b58e-f379f414994a
 
+
+Adjunto agrego foto de la consola la cual nos muestra los requests realizados y su respuesta.
+
+![WhatsApp Image 2024-04-02 at 5 11 01 PM](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/d5feed8e-deb7-4086-aeea-078d3a0096e4)
+
+
 ### Video de funcionamiento del proyecto despues de las 5:40
 
 
@@ -16,9 +22,6 @@ https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/70675981-a71f-4dbf-8
 
 
 
-Adjunto agrego foto de la consola la cual nos muestra los requests realizados y su respuesta.
-
-![WhatsApp Image 2024-04-02 at 5 11 01 PM](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/d5feed8e-deb7-4086-aeea-078d3a0096e4)
 
 ### Ejecucion en EC2
 
