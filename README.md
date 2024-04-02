@@ -38,8 +38,7 @@ A la hora de querer ejecutar el proyecto, es necesario realizar lo siguiente:
 5. Ahora debemos clonar el repositorio a todas las maquinas EC2 y donde lo descarguen deben hacer entrar a la carpeta de el repo (realizar cd a PARCIAL_2_AREP en cada maquina EC2)
 
 6.
-
-    ![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/b03f5b56-4f0e-4044-8f67-ea50e15de439)
+ ![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/b03f5b56-4f0e-4044-8f67-ea50e15de439)
 
    Como podemos observar, la url de cada maquina esta quemada dentro de el codigo, asi que si deseas ejecutarlo, tendras que modificar la clase Serverfacade en la linea **17** para poder colocar las url's de tus maquinas back
 
