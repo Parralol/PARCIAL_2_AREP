@@ -1,4 +1,4 @@
-![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/b56f5fae-eae0-417e-a39e-ca8a600d8cf5)# PARCIAL_2_AREP
+# PARCIAL_2_AREP
 
 ## Desarrollado por Santiago Nicolás Parra Giraldo
 
