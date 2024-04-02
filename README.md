@@ -53,14 +53,15 @@ A la hora de querer ejecutar el proyecto, es necesario realizar lo siguiente:
    Como podemos observar, la url de cada maquina esta quemada dentro de el codigo, asi que si deseas ejecutarlo, tendras que modificar la clase Serverfacade en la linea **17** para poder colocar las url's de tus maquinas back
 
 7. Despues de esto, para ahorrarnos dolores de cabeza ejecutaremos (en cada maquina EC2)
+   
          sudo mvn install
 
-8. Ahora puedes ejecutar _sudo java -cp "target/classes:target/dependency/*" parcial.segundo.Serverfacade_ en el servidor que decidiste que sera fachada y
+9. Ahora puedes ejecutar _sudo java -cp "target/classes:target/dependency/*" parcial.segundo.Serverfacade_ en el servidor que decidiste que sera fachada y
 
    _sudo java -cp "target/classes:target/dependency/*" parcial.segundo.MathService_ en las maquinas que decidas seran los servicios
 
 
-9. Ahora, el codigo funciona de la siguiente manera:
+10. Ahora, el codigo funciona de la siguiente manera:
 
 ![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/fdee2569-32cf-4efa-a878-f881cc491c8f)
 
