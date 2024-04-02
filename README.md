@@ -19,7 +19,7 @@ A la hora de querer ejecutar el proyecto, es necesario realizar lo siguiente:
 
 1. crear 3 estancias EC2 como se ven a continuacion:
 
-   ![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/2589e88b-0fb2-447b-aaaf-2092ca883b66)
+![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/2589e88b-0fb2-447b-aaaf-2092ca883b66)
 
 2. agregar a sus normas de seguridad los siguientes puertos y formas de acceso (esto se hace con una y cada una de las estancias)
 
