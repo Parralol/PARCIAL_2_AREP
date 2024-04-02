@@ -55,11 +55,9 @@ A la hora de querer ejecutar el proyecto, es necesario realizar lo siguiente:
 7. Despues de esto, para ahorrarnos dolores de cabeza ejecutaremos (en cada maquina EC2)
          sudo mvn install
 
-8. Ahora puedes ejecutar ** sudo java -cp "target/classes:target/dependency/*" parcial.segundo.Serverfacade
-** en el servidor que decidiste que sera fachada y
+8. Ahora puedes ejecutar _sudo java -cp "target/classes:target/dependency/*" parcial.segundo.Serverfacade_ en el servidor que decidiste que sera fachada y
 
-   ** sudo java -cp "target/classes:target/dependency/*" parcial.segundo.MathService
-** en las maquinas que decidas seran los servicios
+   _sudo java -cp "target/classes:target/dependency/*" parcial.segundo.MathService_ en las maquinas que decidas seran los servicios
 
 
 9. Ahora, el codigo funciona de la siguiente manera:
