@@ -4,9 +4,16 @@
 
 
 
-### Video de funcionamiento del proyecto
+### Video de funcionamiento del proyecto antes de las 5:40
 
 https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/27e9a694-84a7-4cc9-b58e-f379f414994a
+
+### Video de funcionamiento del proyecto despues de las 5:40
+
+
+
+https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/70675981-a71f-4dbf-8827-77bbcd1062d1
+
 
 
 Adjunto agrego foto de la consola la cual nos muestra los requests realizados y su respuesta.
