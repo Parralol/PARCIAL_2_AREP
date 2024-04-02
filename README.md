@@ -52,4 +52,9 @@ A la hora de querer ejecutar el proyecto, es necesario realizar lo siguiente:
 ** en las maquinas que decidas seran los servicios
 
 
-9. Ahora, el codigo funciona de la siguiente manera
+9. Ahora, el codigo funciona de la siguiente manera:
+
+![image](https://github.com/Parralol/PARCIAL_2_AREP/assets/110953563/fdee2569-32cf-4efa-a878-f881cc491c8f)
+
+en el campo que dice "Funcion" debes escribir la funcion que deseas usar, sea factors o primes y bajo este debes colocar el numero que deseas operar
+    
