@@ -24,7 +24,7 @@
                     document.getElementById("getrespmsg").innerHTML =
                     this.responseText;
                 }
-                xhttp.open("GET", "/hello?function="+nameVar+ "&"+ "value=" + nameVal);
+                xhttp.open("GET", "/send?function="+nameVar+ "&"+ "value=" + nameVal);
                 xhttp.send();
             }
         </script>
