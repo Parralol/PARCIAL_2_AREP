@@ -4,9 +4,11 @@ import static spark.Spark.*;
 
 
 public class Serverfacade {
-    static HttpConnetionExample conection = new HttpConnetionExample();
-
+    static HttpConnetionExample conection = new HttpConnetionExample("d");
+    private static final String DEFAULT_SERVER_URL = "http://localhost:5000/"  ;
+    //private static final String DEFAULT_SERVER_URL = System.getenv("DEFAULT_SERVER_URL");
     public static void main(String... args){
+        
         port(getPort());
         staticFiles.location("/static");
         get("/favicon", (req,res) -> "");
@@ -14,9 +16,8 @@ public class Serverfacade {
             String rest;
             String function = req.queryParamsValues("function")[0];
             String value = req.queryParamsValues("value")[0];
-            String[] conString = {"http://ec2-54-89-248-169.compute-1.amazonaws.com:5000/" + function + "?value=" + value, "http://ec2-35-171-28-120.compute-1.amazonaws.com:5000/" + function + "?value=" + value};
+            String[] conString = {DEFAULT_SERVER_URL + function + "?value=" + value, DEFAULT_SERVER_URL + function + "?value=" + value};
             rest = HttpConnetionExample.conect(conString);
-            System.out.println(rest + "<-----");
             return rest;
         });
   }
