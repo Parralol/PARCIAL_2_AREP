@@ -4,9 +4,8 @@ import static spark.Spark.*;
 
 
 public class Serverfacade {
-    static HttpConnetionExample conection = new HttpConnetionExample("d");
+    static HttpConnetionExample conection;
     private static final String DEFAULT_SERVER_URL = "http://localhost:5000/"  ;
-    //private static final String DEFAULT_SERVER_URL = System.getenv("DEFAULT_SERVER_URL");
     public static void main(String... args){
         
         port(getPort());

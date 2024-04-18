@@ -3,7 +3,7 @@ package parcial.segundo;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.logging.Logger;
+import java.util.logging.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -16,10 +16,7 @@ public final class HttpConnetionExample {
      private static int count = 0;
      protected static final Logger logger = Logger.getLogger(HttpConnetionExample.class.getName());
      
-     public HttpConnetionExample(String d){
-     }
 
-    @SuppressWarnings("unused")
     private HttpConnetionExample(){
         throw new IllegalStateException("Utility class");
      }
@@ -35,7 +32,7 @@ public final class HttpConnetionExample {
         
         //The following invocation perform the connection implicitly before getting the code
         int responseCode = con.getResponseCode();
-        logger.info("GET Response Code :: " + responseCode);
+        logger.log(Level.INFO,() -> "GET Response Code :: " + responseCode);
         
         if (responseCode == HttpURLConnection.HTTP_OK) { // success
             BufferedReader in = new BufferedReader(new InputStreamReader(
@@ -47,7 +44,7 @@ public final class HttpConnetionExample {
                 response.append(inputLine);
             }
             in.close();
-            logger.info(response.toString());
+            logger.log(Level.INFO,() -> response.toString());
             // print result
             return response.toString();
         } else {
